@@ -29,7 +29,6 @@ build/
 # Spring Boot
 #################################################
 logs/
-*.log
 
 #################################################
 # Eclipse / STS
@@ -82,18 +81,37 @@ yarn-error.log*
 #################################################
 application-local.properties
 application-local.yml
+application-local.yaml
 application-secret.properties
 application-secret.yml
+application-secret.yaml
 application-dev.properties
 application-dev.yml
+application-dev.yaml
 
 #################################################
-# Google Gemini / AI Keys
+# API keys, database credentials, and secret files
 #################################################
 *apikey*
 *api-key*
 secrets.properties
 secrets.yml
+secrets.yaml
+secrets.*
+*.secret
+*.secret.*
+credentials.json
+credentials.*.json
+
+#################################################
+# Private keys and certificates
+#################################################
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
 
 #################################################
 # MongoDB Local Data
