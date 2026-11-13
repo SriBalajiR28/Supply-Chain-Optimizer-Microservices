@@ -1,3 +1,22 @@
+.env
+.env.*
+!.env.example
+
+application-local.properties
+application-local.yml
+application-local.yaml
+
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+secrets.properties
+secrets.yml
+secrets.yaml
+
+
 #################################################
 # Java
 #################################################
