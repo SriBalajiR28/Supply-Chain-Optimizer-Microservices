@@ -114,6 +114,13 @@ credentials.*.json
 *.keystore
 
 #################################################
+# Local Spring Boot overrides
+#################################################
+/src/main/resources/application-local.properties
+/src/main/resources/application-local.yml
+/src/main/resources/application-local.yaml
+
+#################################################
 # MongoDB Local Data
 #################################################
 data/
